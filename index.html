@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/app.css" as="style">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/normalize.css">
     <title>Freelancer</title>
 </head>
 <body>
     <header>
-        <h1>Edgar Ramírez <span>Freelancer</span></h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
-        </nav>
+        <h1 class="titulo1">Edgar Ramírez <span>Freelancer</span></h1>
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre Mi</a>
+                <a href="#">Clientes</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
     </header>
-    <section>
+    <section class="contenedor">
         <h2>Diseño y Desarrollo Web Frelancer</h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -33,7 +36,7 @@
         <a href="#">Conctactar</a>
     </section>
 
-    <main>
+    <main class="contenedor">
         <section>
             <h2>Mis Servicios</h2>
             <h3>Diseño Web</h3>
