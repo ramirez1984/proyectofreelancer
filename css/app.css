@@ -29,6 +29,7 @@ box-shadow: 11px 13px 15px -5px rgba(117,198,209,0.86);
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -167,6 +168,13 @@ h2, h3 {
     margin-top: 2rem;
   }
      
+}
+.servicios_grid,
+.navegacion-principal,
+.footer {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+
 }
 
 .servicios_logo {
