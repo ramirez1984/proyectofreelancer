@@ -38,7 +38,7 @@ html {
   body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    background-color: #73bfcf;
+    background-color: var(--gris);
     /* background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%); */
     
 }
@@ -101,11 +101,12 @@ h2, h3 {
     margin: 0;
 }
 .hero {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/freelancer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
   position: relative;
+  background-position: center center;
 
 }
 .contenido-hero {
@@ -269,7 +270,7 @@ h2, h3 {
 .footer p {
   text-align: center;
   padding: 2rem;
-  color: var(--blanco);
+  color: var(--negro);
   
 
 }
