@@ -1,9 +1,9 @@
 :root {
 
   --blanco: #ffffff;
-  --gris: #f2f2f2;
+  --gris: #f0f4f3;
   --oscuro: #000000;
-  --celeste: #329ea8;
+  --celeste: #137bae;
   --naranja: #ffbf00;
   --tamañoPrincipal: 3.8rem;
   --azultierno: #daf2f1;
@@ -38,7 +38,9 @@ html {
   body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%);
+    background-color: #73bfcf;
+    /* background-image: linear-gradient(to top, var(--gris) 0%, var(--blanco) 100%); */
+    
 }
 header {
     padding-top: 5rem;
@@ -267,6 +269,7 @@ h2, h3 {
 .footer p {
   text-align: center;
   padding: 2rem;
+  color: var(--blanco);
   
 
 }
